@@ -1,5 +1,5 @@
 @charset "UTF-8";
- /*configurações tablets */
+ /*  CONFIGURAÇÃO PARA  TABLETS */ 
 @media screen and ( min-width:768px) and ( max-width:992px) {
    
     section > h1,h1{
@@ -10,9 +10,8 @@
         text-align: center;
  }
  
- 
+section#img01{
 
-    section#img01{
 height: 550px;
 width: 100%;
 
@@ -26,6 +25,7 @@ width: 100%;
 }
 
 @media screen and ( min-width:992px) {
+    /* CONFIGURAÇÃO PARA TELAS GRANDES */
     
     section>h1,h1{
        font-size: 3em;
@@ -54,7 +54,7 @@ width: 100%;
     section.img02{
  text-align: left;
  margin: 0px 0px 30px 60px;
- width:80%;
+ width:70%;
 }
     p{
         text-align: center;
