@@ -7,74 +7,88 @@
     }
     p{
         font-size: 1.2em;
-     
-    }
+        text-align: center;
+ }
+ 
+ 
+
     section#img01{
 height: 550px;
 width: 100%;
+
     }
-   
 
-  
-
-    article#conteiner{
-        flex-flow: row wrap ;
-        justify-content: space-evenly;
+  article#conteiner-servicos{
+       flex-flow: row wrap ;
+     justify-content: space-evenly;
        
     }
-    article#conteiner > div>img.imgprojetos{
-        height: 220px;
-       
-
-    }
-  
-  
 }
 
 @media screen and ( min-width:992px) {
     
-    h1{
-       font-size: 2.5em;
+    section>h1,h1{
+       font-size: 3em;
     } 
     h2{
-        font-size: 1.8em;
-       
+        font-size: 1.9em;
+        
     }
+    
     p#paragrafo{
         position: absolute;
-        text-align: center and justify;
-        max-width: 700px;
+        text-align: center justify;
         top:50%;
         left: 50%;
         transform: translate(0%, 20%);
     }
-    section.img02{
+    .conteiner-sobrenos > section >.titulo-sobrenos{
+      width:47%;
+        transform: translate(95%,50%);
+     }
+    
+    section.img02 >  img{
         display: flex;
         flex-direction: row;
     }
     section.img02{
  text-align: left;
- margin-left: 30px;
+ margin: 0px 0px 30px 60px;
+ width:80%;
 }
     p{
         text-align: center;
         font-size: 1.2em;
         max-width: 600px;
     }
+
    
-    article#conteiner{
-        
+    article#conteiner-servicos{
+       
+        display: flex;
         flex-flow: row wrap ;
         justify-content: space-around;
-       
       align-items: center;
+      
        
     }
+    
     article > div.item > p{
      padding: 0px;
+     margin: 0px;
     }
     div.solicite> div.item{
         display:flex;
         flex-direction: column;
     }
+    div.solicite   {
+    
+        text-align: center;
+
+    }
+    footer > p{
+       float: center;
+    }
+   
+   
 }

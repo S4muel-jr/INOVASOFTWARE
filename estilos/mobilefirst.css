@@ -4,23 +4,27 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  "Quattrocento",Arial, Helvetica, sans-serif;
     font-weight: bold;
-
+    font-style: normal;
 }
+
 body,html{
-   
+     height: 100%;
     width: 100%;
 }
  main{
-    max-width: 1200px;
+   
     margin: auto;
+   
 } 
+
 header{
     background-color: #297CB4;
    width: auto;
     padding:20px;
     color: white;
+
 } 
 header > h1{
     text-align: center;
@@ -32,6 +36,7 @@ section#img01{
  background: url(../imagens/sistemadegestao.jpg) center center no-repeat fixed;
  background-size: cover;
  height: 400px;
+ width: 100;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -67,62 +72,119 @@ p {
    line-height: 1.5em;
    color: black;
 }
-article.sobrenos{
+article.conteiner-sobrenos{
     position: relative;
 }
 
- article.sobrenos > section{
+ article.conteiner-sobrenos > section{
     background-color: white;
    
  }
+ 
  section.img02 { 
+    background-color: white;
     text-align: center;
 
 } 
-section.img02>img{
+section.img02>  img{
+    width: 50%;
     border-radius: 10px;
+    margin-bottom: 20px;
     box-shadow: #00000062 2px 5px 5px  ;
 }
-article#conteiner{
-   
+article#conteiner-servicos{
+   background-color: lightgrey;
+   width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 400px;
-    max-width: 1000px;
+  
     transition: width 5s, height 5s;
 }
-article > div.item{
-    margin-top: 40px;
+article#conteiner-servicos> h2{
+    width:100%;
+    text-align: center;
+}
+article > div.itens{
+    margin-top: 20px;
+
     
     
 }
-article > div.item > img{
+article > div.itens > img{
    
     height: 200px;
     width: 300px;
+    margin-bottom: 10px;
     border-radius: 10px;
     box-shadow: #00000062 2px 5px 5px  ;
     
 }
- article > div.item  > p{
+ article > div.itens > p,.solicite>p{
         width: 250px;
         text-align: justify;
+        padding: 0px;
        
  }
+
+ div.itens>p.paragrafo-projetos{
+    margin-bottom: 40px;
+
+ }
+
+
  div.solicite > a#enviar {
     background-color: #297CB4;
    color: white;
-    padding: 20px;
+    padding: 15px;
     font-size: 1em;
     display: flex;
-    flex-direction: row;
+    float: center;
     text-decoration: none;
+    border-radius: 10px;
+    margin:5px 20px;
+ }
+ 
+ div.solicite >.paragrafo-solicite{
+    margin-bottom: -5px;
  }
  div.solicite > a#enviar:hover{
-    transform: translateY(-10px);
+ transform: rotatex(360deg);
+    transition: .5s;
     background-color: #3caefa;
+    
+ }
+ footer{
+    background-color: #297CB4;
+   padding: 10px;
+   
+ }
+ 
+ footer > a{
+    margin: 0px;
+     color: white;
+ }
+ footer > a{
+    float:right;
+    margin:0px 10px;
+
+ }
+ footer > p{
+    margin: auto;
+   text-align: center;
+
+ }
+ footer > p , a{
+    color: white;
+    font-size: .9em;
+   
+ }
+ 
+ footer > a:hover{
+   transform: translatey(-5px);
  }
 
+
+  
 
