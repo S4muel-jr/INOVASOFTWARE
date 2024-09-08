@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* Mobile first */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body,html{
+   
+    width: 100%;
+}
+header > h1{
+    text-align: center;
+    margin: 30px;
+}
+section#img01{
+    
+ background: url(../imagens/sistemadegestao.jpg) center center no-repeat fixed;
+ background-size: cover;
+ height: 400px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+section > h1,p{
+padding-left: 15px;
+ color: white;
+ margin: 20px 0px;
+font-weight: lighter;
+}  
+section > h1{
+    font-size: 2em;
+    
+}
+section >p.paragrafo{
+    color: white;
+}
+h2{
+    text-align: center;
+    margin: 30px;
+}
+
+p{
+    text-align: center;
+    text-align: justify;
+   font-size: 1em;
+   line-height: 1.5em;
+   color: black;
+}
+ article.sobrenos > section{
+    background-color: white;
+   
+ }
+ section.img02{ 
+    background: url(../imagens/analise.jpg) top center no-repeat ;
+    background-size: cover;
+    height: 300px;
+
+}
+article{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+article > div.item > img{
+   
+    height: 200px;
+    width: 300px;
+    
+}
+ article > div.item  > p{
+        width: 290px;
+        text-align: justify;
+ }
+

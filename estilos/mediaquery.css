@@ -1,0 +1,23 @@
+@charset "UTF-8";
+ /*configurações tablets */
+@media screen and ( min-width:768px) and ( max-width:992px) {
+   
+    section > h1,h1{
+        font-size: 2.5em;
+    }
+    p{
+        font-size: 1.3em;
+     
+    }
+    section.img02{
+        background-size: contain;
+        background-position: center bottom;
+
+    }
+    
+  article > div.item > img{
+        height: 300px;
+    width: 400px;
+    }
+  
+}
