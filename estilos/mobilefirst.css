@@ -5,15 +5,27 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 
 }
 body,html{
    
     width: 100%;
 }
+ main{
+    max-width: 1200px;
+    margin: auto;
+} 
+header{
+    background-color: #297CB4;
+   width: auto;
+    padding:20px;
+    color: white;
+} 
 header > h1{
     text-align: center;
-    margin: 30px;
+   
+    
 }
 section#img01{
     
@@ -37,45 +49,80 @@ section > h1{
     
 }
 section >p.paragrafo{
+    text-align: center;
     color: white;
+    max-width: 600px;
 }
 h2{
     text-align: center;
     margin: 30px;
+    display: block;
 }
 
-p{
+p { 
+    margin: 20px 30px;
     text-align: center;
     text-align: justify;
    font-size: 1em;
    line-height: 1.5em;
    color: black;
 }
+article.sobrenos{
+    position: relative;
+}
+
  article.sobrenos > section{
     background-color: white;
    
  }
- section.img02{ 
-    background: url(../imagens/analise.jpg) top center no-repeat ;
-    background-size: cover;
-    height: 300px;
+ section.img02 { 
+    text-align: center;
 
+} 
+section.img02>img{
+    border-radius: 10px;
+    box-shadow: #00000062 2px 5px 5px  ;
 }
-article{
+article#conteiner{
    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-width: 400px;
+    max-width: 1000px;
+    transition: width 5s, height 5s;
+}
+article > div.item{
+    margin-top: 40px;
+    
+    
 }
 article > div.item > img{
    
     height: 200px;
     width: 300px;
+    border-radius: 10px;
+    box-shadow: #00000062 2px 5px 5px  ;
     
 }
  article > div.item  > p{
-        width: 290px;
+        width: 250px;
         text-align: justify;
+       
  }
+ div.solicite > a#enviar {
+    background-color: #297CB4;
+   color: white;
+    padding: 20px;
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+ }
+ div.solicite > a#enviar:hover{
+    transform: translateY(-10px);
+    background-color: #3caefa;
+ }
+
 

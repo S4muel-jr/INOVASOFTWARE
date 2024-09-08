@@ -6,18 +6,75 @@
         font-size: 2.5em;
     }
     p{
-        font-size: 1.3em;
+        font-size: 1.2em;
      
     }
-    section.img02{
-        background-size: contain;
-        background-position: center bottom;
+    section#img01{
+height: 550px;
+width: 100%;
+    }
+   
+
+  
+
+    article#conteiner{
+        flex-flow: row wrap ;
+        justify-content: space-evenly;
+       
+    }
+    article#conteiner > div>img.imgprojetos{
+        height: 220px;
+       
 
     }
-    
-  article > div.item > img{
-        height: 300px;
-    width: 400px;
-    }
   
+  
+}
+
+@media screen and ( min-width:992px) {
+    
+    h1{
+       font-size: 2.5em;
+    } 
+    h2{
+        font-size: 1.8em;
+       
+    }
+    p#paragrafo{
+        position: absolute;
+        text-align: center and justify;
+        max-width: 700px;
+        top:50%;
+        left: 50%;
+        transform: translate(0%, 20%);
+    }
+    section.img02{
+        display: flex;
+        flex-direction: row;
+    }
+    section.img02{
+ text-align: left;
+ margin-left: 30px;
+}
+    p{
+        text-align: center;
+        font-size: 1.2em;
+        max-width: 600px;
+    }
+   
+    article#conteiner{
+        
+        flex-flow: row wrap ;
+        justify-content: space-around;
+       
+      align-items: center;
+       
+    }
+    article > div.item > p{
+     padding: 0px;
+    }
+    div.solicite> div.item{
+        display:flex;
+        flex-direction: column;
+    }
 }
