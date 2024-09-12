@@ -31,6 +31,12 @@
         justify-content: space-evenly;
 
     }
+    .slide img {
+        display: block;
+        margin: auto;
+        width: 80vh;
+        
+    }
 }
 
 @media screen and (min-width:992px) {
@@ -76,7 +82,7 @@
 
     p {
         text-align: center justify;
-        font-size: 1.4em;
+        font-size: 1.2em;
         max-width: 600px;
     }
 
