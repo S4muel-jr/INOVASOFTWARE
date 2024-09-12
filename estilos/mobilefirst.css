@@ -55,6 +55,7 @@ header>h1 {
 
 section>h1,
 p {
+    text-align: justify !;
     padding-left: 15px;
     color: white;
     margin: 20px 0px;
@@ -68,8 +69,12 @@ section>h1 {
 
 .paragrafo {
     text-align: center;
+    text-align: justify;
     color: white;
     max-width: 600px;
+}
+#paragrafo{
+    text-align: justify;
 }
 
 h2 {
